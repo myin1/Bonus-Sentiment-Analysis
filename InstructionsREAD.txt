@@ -1,0 +1,14 @@
+We can store the negative and positive lexicons in two separate char arrays.
+For each review, we check each word per review to see if they exist as a positive/negative lexicon.
+If (exists), increment positive or decrement neg. 
+
+We can use strstr() in <string.h> library to check if it exists. I think it will return null if if does
+not exist.
+
+So, first, someone needs to store the two lexicon txt files 
+into a char array (2 separate c files: one for positive and other for negative)
+
+Then, when you have time, please start writing the functions and filling in the 'idk' constraints.
+
+
+okies :) good luck.
