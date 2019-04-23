@@ -14,13 +14,24 @@ int main(void){
 return 0;
 }
 
-void countPos(char reviews[idk1][idk2]){
+void countPos(idk parameter yet){
 }
 
-void countNeg(char reviews[idk1][idk2]){
+void countNeg(idk parameter yet){
 }
 
-int calcPol(int pos, int neg){
-
+int calcPol(int pos, int neg, char str[idk2]){
+ //Printing out string and polarity
+  polar = pos + neg;
+  
+  if(polar>0){
+  printf("Review: %s\nOpinion: Positive\n", str);
+  }
+  else if(polar=0){
+  printf("Review: %s\nOpinion: Neutral\n", str);
+  }
+  else{
+  printf("Review: %s\nOpinion: Negative\n", str);
+  }
 }
 
